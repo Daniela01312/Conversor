@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONVERSOR</h1>
+   
+    <div id="option1" class="option">
+        <h2>Convertir miligramos a mililitros</h2>
+        <label for="mg">Miligramos:</label>
+        <input type="number" id="mg"><br>
+        <label for="kg">Peso del animal (kg):</label>
+        <input type="number" id="kg"><br>
+        <label for="equivalent">Equivalente (mg por 1ml):</label>
+        <input type="number" id="equivalent"><br>
+        <button onclick="convertMgToMl()">Convertir</button>
+        <p id="result1"></p>
+    </div>
+
+    <div id="option2" class="option">
+        <h2>Convertir de gramos a miligramos</h2>
+        <label for="grams">Gramos:</label>
+        <input type="number" id="grams"><br>
+        <label for="ml">Mililitros:</label>
+        <input type="number" id="ml"><br>
+        <label for="mg2">Miligramos:</label>
+        <input type="number" id="mg2"><br>
+        <label for="kg2">Peso del animal (kg):</label>
+        <input type="number" id="kg2"><br>
+        <button onclick="convertGramsToMg()">Convertir</button>
+        <p id="result2"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
